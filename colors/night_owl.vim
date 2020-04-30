@@ -1,10 +1,10 @@
 " ===============================================================
-" night-owl
+" night_owl
 " 
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2021/02/19 15:54
+" Last Change: 2021/02/19 15:55
 " ===============================================================
 
 set background=dark
@@ -12,21 +12,21 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="night-owl"
+let g:colors_name="night_owl"
 
 
 let Italic = ""
-if exists('g:night-owl_italic')
+if exists('g:night_owl_italic')
   let Italic = "italic"
 endif
-let g:night-owl_italic = get(g:, 'night-owl_italic', 0)
+let g:night_owl_italic = get(g:, 'night_owl_italic', 0)
 
 let Bold = ""
-if exists('g:night-owl_bold')
+if exists('g:night_owl_bold')
   let Bold = "bold"
 endif
 
-let g:night-owl_bold = get(g:, 'night-owl_bold', 0)
+let g:night_owl_bold = get(g:, 'night_owl_bold', 0)
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
