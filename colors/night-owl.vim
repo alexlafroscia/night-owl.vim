@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2020/04/19 12:37
+" Last Change: 2021/02/19 15:54
 " ===============================================================
 
 set background=dark
@@ -14,15 +14,28 @@ if exists("syntax_on")
 endif
 let g:colors_name="night-owl"
 
+
+let Italic = ""
+if exists('g:night-owl_italic')
+  let Italic = "italic"
+endif
+let g:night-owl_italic = get(g:, 'night-owl_italic', 0)
+
+let Bold = ""
+if exists('g:night-owl_bold')
+  let Bold = "bold"
+endif
+
+let g:night-owl_bold = get(g:, 'night-owl_bold', 0)
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
-hi DiffAdd guifg=#addb67 ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#ecc48d ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#ff5874 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffAdd guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
+hi DiffChange guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
+hi DiffDelete guifg=#011627 ctermfg=233 guibg=#ff5874 ctermbg=204 gui=NONE cterm=NONE
 hi DiffText guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
 hi diffAdded guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi diffRemoved guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
@@ -38,10 +51,10 @@ hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NON
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#777777 ctermfg=243 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
-hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
+hi Title guifg=#82aaff ctermfg=111 gui=Bold cterm=Bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi Comment guifg=#637777 ctermfg=243 gui=Italic cterm=Italic
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi Identifier guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -58,7 +71,7 @@ hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsString guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi jsComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi jsComment guifg=#637777 ctermfg=243 gui=Italic cterm=Italic
 hi jsFuncCall guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsNumber guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi jsSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
@@ -73,25 +86,25 @@ hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFuncName guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link jsParensError jsFuncParens
 hi jsClassDefinition guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi jsImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
-hi jsFrom guifg=#c792ea ctermfg=176 gui=italic cterm=italic
-hi jsModuleAs guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsImport guifg=#c792ea ctermfg=176 gui=Italic cterm=Italic
+hi jsFrom guifg=#c792ea ctermfg=176 gui=Italic cterm=Italic
+hi jsModuleAs guifg=#c792ea ctermfg=176 gui=Italic cterm=Italic
 hi jsExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExportDefault guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
-hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=Italic cterm=Italic
 hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi javaScriptBoolean guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
-hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=Italic cterm=Italic
 hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptException guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssTagName guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
-hi cssClassName guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi cssClassName guifg=#addb67 ctermfg=149 gui=Italic cterm=Italic
 hi link cssClassNameDot cssClassName
 hi cssBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi cssPositioningProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -111,11 +124,11 @@ hi cssCommonAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssColorProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssIncludeKeyword guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssKeyFrameSelector guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
-hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=Italic cterm=Italic
 hi cssBorderAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssValueLength guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#fbec9f ctermfg=229 gui=NONE cterm=NONE
-hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=italic cterm=italic
+hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=Italic cterm=Italic
 hi markdownHeadingDelimiter guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE
@@ -123,17 +136,17 @@ hi mkdCodeStart guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi mkdCodeEnd guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi mkdCodeDelimiter guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi htmlH1 guifg=#82aaff ctermfg=111 gui=bold cterm=bold
+hi htmlH1 guifg=#82aaff ctermfg=111 gui=Bold cterm=Bold
 hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi htmlH4 guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link htmlH5 htmlH4
-hi htmlBold guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=bold cterm=bold
-hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
+hi htmlBold guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=Bold cterm=Bold
+hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=Italic cterm=Italic
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=italic cterm=italic
+hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=Italic cterm=Italic
 hi NERDTreeUp guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
@@ -144,25 +157,15 @@ hi GitGutterChange guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 
-let g:terminal_color_foreground = "#d6deeb"
-let g:terminal_color_background = "#011627"
-let g:terminal_color_0 = "#011627"
-let g:terminal_color_8 = "#637777"
-let g:terminal_color_1 = "#ff5874"
-let g:terminal_color_2 = "#addb67"
-let g:terminal_color_10 = "#addb67"
-let g:terminal_color_3 = "#f78c6c"
-let g:terminal_color_11 = "#f78c6c"
-let g:terminal_color_4 = "#82aaff"
-let g:terminal_color_12 = "#82aaff"
-let g:terminal_color_5 = "#c792ea"
-let g:terminal_color_13 = "#c792ea"
-let g:terminal_color_6 = "#7fdbca"
-let g:terminal_color_14 = "#7fdbca"
-let g:terminal_color_7 = "#aaaaaa"
-let g:terminal_color_15 = "#eeeeee"
+if exists('*term_setansicolors')
+  let g:terminal_ansi_colors = repeat([0], 16)
+
+endif
+
+if has('nvim')
+endif
 
 " ===================================
-" Generated by Estilo 1.3.3
+" Generated by Estilo 1.5.0
 " https://github.com/jacoborus/estilo
 " ===================================
