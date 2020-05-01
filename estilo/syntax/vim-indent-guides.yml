@@ -1,0 +1,3 @@
+# https://github.com/nathanaelkane/vim-indent-guides
+IndentGuidesOdd: '. gray4'
+IndentGuidesEven: '. gray7'
