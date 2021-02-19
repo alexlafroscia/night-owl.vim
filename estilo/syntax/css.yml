@@ -1,28 +1,27 @@
-scssSelectorName: 'green .'
-cssTagName: 'red .'
-cssClassName: 'green . i'
-cssClassNameDot: '@cssClassName'
-cssBraces: 'white .'
-cssPositioningProp: 'green2 .'
-cssBoxProp: 'green2 .'
-cssDimensionProp: 'green2 .'
-cssTransitionProp: 'green2 .'
-cssTextProp: 'green2 .'
-cssFontProp: 'green2 .'
-cssBorderProp: 'green2 .'
-cssBackgroundProp: 'green2 .'
-cssUIProp: 'green2 .'
-cssIEUIProp: 'red .'
-scssFunctionName: 'green .'
-cssPositioningAttr: 'red .'
-cssTableAttr: 'red .'
-cssCommonAttr: 'red .'
-cssColorProp: 'green2 .'
-cssIncludeKeyword: 'green2 .'
-cssKeyFrameSelector: 'green .'
-cssPseudoClassId: 'green . i'
-cssBorderAttr: 'red .'
-cssValueLength: 'yellow2 .'
-cssUnitDecorators: 'yellow3 .'
-cssIdentifier: 'yellow4 . i'
-
+scssSelectorName: "green ."
+cssTagName: "red ."
+cssClassName: "green . i"
+cssClassNameDot: "@cssClassName"
+cssBraces: "white ."
+cssPositioningProp: "green2 ."
+cssBoxProp: "green2 ."
+cssDimensionProp: "green2 ."
+cssTransitionProp: "green2 ."
+cssTextProp: "green2 ."
+cssFontProp: "green2 ."
+cssBorderProp: "green2 ."
+cssBackgroundProp: "green2 ."
+cssUIProp: "green2 ."
+cssIEUIProp: "red ."
+scssFunctionName: "green ."
+cssPositioningAttr: "red ."
+cssTableAttr: "red ."
+cssCommonAttr: "red ."
+cssColorProp: "green2 ."
+cssIncludeKeyword: "green2 ."
+cssKeyFrameSelector: "green ."
+cssPseudoClassId: "green . i"
+cssBorderAttr: "red ."
+cssValueLength: "yellow2 ."
+cssUnitDecorators: "yellow3 ."
+cssIdentifier: "yellow4 . i"

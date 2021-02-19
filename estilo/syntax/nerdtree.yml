@@ -1,26 +1,26 @@
-NERDTreePart: '' # Special
-NERDTreePartFile: '' # Type
-NERDTreeExecFile: '' # Title
-NERDTreeDirSlash: 'gray .' # Identifier
-NERDTreeBookmarksHeader: '' # statement
-NERDTreeBookmarksLeader: '' # ignore
-NERDTreeBookmarkName: '' # Identifier
-NERDTreeBookmark: '' # normal
-NERDTreeHelp: 'gray4 . i' # String
-NERDTreeHelpKey: '' # Identifier
-NERDTreeHelpCommand: '' # Identifier
-NERDTreeHelpTitle: '' # Macro
-NERDTreeToggleOn: '' # Question
-NERDTreeToggleOff: '' # WarningMsg
-NERDTreeLinkTarget: '' # Type
-NERDTreeLinkFile: '' # Macro
-NERDTreeLinkDir: '' # Macro
-NERDTreeDir: 'hoki .' # Directory
-NERDTreeUp: 'gray .' # Directory
-NERDTreeFile: '' # Normal
-NERDTreeCWD: '' # Statement
-NERDTreeOpenable: 'red .' # Title
-NERDTreeClosable: 'yellow .' # Title
-NERDTreeIgnore: '' # ignore
-NERDTreeRO: '' # WarningMsg
-NERDTreeFlags: '' # Number
+NERDTreePart: "" # Special
+NERDTreePartFile: "" # Type
+NERDTreeExecFile: "" # Title
+NERDTreeDirSlash: "gray ." # Identifier
+NERDTreeBookmarksHeader: "" # statement
+NERDTreeBookmarksLeader: "" # ignore
+NERDTreeBookmarkName: "" # Identifier
+NERDTreeBookmark: "" # normal
+NERDTreeHelp: "gray4 . i" # String
+NERDTreeHelpKey: "" # Identifier
+NERDTreeHelpCommand: "" # Identifier
+NERDTreeHelpTitle: "" # Macro
+NERDTreeToggleOn: "" # Question
+NERDTreeToggleOff: "" # WarningMsg
+NERDTreeLinkTarget: "" # Type
+NERDTreeLinkFile: "" # Macro
+NERDTreeLinkDir: "" # Macro
+NERDTreeDir: "hoki ." # Directory
+NERDTreeUp: "gray ." # Directory
+NERDTreeFile: "" # Normal
+NERDTreeCWD: "" # Statement
+NERDTreeOpenable: "red ." # Title
+NERDTreeClosable: "yellow ." # Title
+NERDTreeIgnore: "" # ignore
+NERDTreeRO: "" # WarningMsg
+NERDTreeFlags: "" # Number

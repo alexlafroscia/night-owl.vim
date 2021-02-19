@@ -1,13 +1,13 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback } from "react";
 
 export default function NightOwl() {
   // using hooks
-  const [color, setColor] = useState('deepskyblue');
+  const [color, setColor] = useState("deepskyblue");
   const handleButtonOnClick = useCallback(
-    e => {
+    (e) => {
       e.preventDefault();
-      const colorNext = color === 'deepskyblue' ? 'hotpink' : 'deepskyblue';
-      console.log('switch title color to', colorNext);
+      const colorNext = color === "deepskyblue" ? "hotpink" : "deepskyblue";
+      console.log("switch title color to", colorNext);
       setColor(colorNext);
     },
     [color]

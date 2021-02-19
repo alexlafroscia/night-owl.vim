@@ -1,81 +1,81 @@
 # BASE UI
-ColorColumn: '. gray2'
-Conceal: ''
-Cursor: ''
-CursorIM: ''
-CursorColumn: ''
-CursorLine: '. neardark'
-Directory: 'blue .'
-DiffAdd: 'dark green'
-DiffChange: 'dark yellow'
-DiffDelete: 'dark red'
-DiffText: 'dark green'
-ErrorMsg: ''
-VertSplit: 'gray7 .'
-Folded: 'gray7 dark'
-FoldColumn: 'gray3 dark'
-SignColumn: '- dark'
-IncSearch: 'bright yellow'
-LineNr: 'gray4 dark'
-MatchParen: ''
-ModeMsg: ''
-MoreMsg: ''
-NonText: 'gray4 .'
-Normal: 'white dark'
-PMenu: '. purple2'
-PMenuSel: '. purple'
-PmenuSbar: ''
-PmenuThumb: ''
-Question: ''
-Search: 'dark yellow'
-SpecialKey: 'yellow .'
-SpellBad: ''
-SpellLocal: ''
-SpellCap: ''
-SpellRare: ''
-StatusLine: 'bright neardark'
-StatusLineNC: 'gray7 neardark'
-TabLine: ''
-TabLineFill: ''
-TabLineSel: ''
-Title: 'blue . b'
-Visual: 'white purple2'
-VisualNOS: ''
-WarningMsg: ''
-WildMenu: ''
+ColorColumn: ". gray2"
+Conceal: ""
+Cursor: ""
+CursorIM: ""
+CursorColumn: ""
+CursorLine: ". neardark"
+Directory: "blue ."
+DiffAdd: "dark green"
+DiffChange: "dark yellow"
+DiffDelete: "dark red"
+DiffText: "dark green"
+ErrorMsg: ""
+VertSplit: "gray7 ."
+Folded: "gray7 dark"
+FoldColumn: "gray3 dark"
+SignColumn: "- dark"
+IncSearch: "bright yellow"
+LineNr: "gray4 dark"
+MatchParen: ""
+ModeMsg: ""
+MoreMsg: ""
+NonText: "gray4 ."
+Normal: "white dark"
+PMenu: ". purple2"
+PMenuSel: ". purple"
+PmenuSbar: ""
+PmenuThumb: ""
+Question: ""
+Search: "dark yellow"
+SpecialKey: "yellow ."
+SpellBad: ""
+SpellLocal: ""
+SpellCap: ""
+SpellRare: ""
+StatusLine: "bright neardark"
+StatusLineNC: "gray7 neardark"
+TabLine: ""
+TabLineFill: ""
+TabLineSel: ""
+Title: "blue . b"
+Visual: "white purple2"
+VisualNOS: ""
+WarningMsg: ""
+WildMenu: ""
 # BASE SYNTAX
-Comment: 'gray . i'
-Constant: 'green .'
-String: 'yellow .' # Constant
-Character: '' # Constant
-Boolean: '' # Constant
-Number: '' # Constant
-Float: '' # Constant
-Identifier: 'green2 .'
-Function: '' # Identifier
-Statement: 'blue .'
-Conditional: '' # Statement
-Repeat: '' # Statement
-Label: '' # Statement
-Operator: 'purple .' # Statement
-Keyword: '' # Statement
-Exception: 'green .' # Statement
-PreProc: 'purple .'
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
-Type: 'green .'
-StorageClass: 'purple .' # Type
-Structure: '' # Type
-Typedef: '' # Type
-Special: ''
-SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: '' # Special
-SpecialComment: '' # Special
-Debug: '' # Special
-Underlined: ''
-Ignore: ''
-Error: ''
-Todo: 'gray7 yellow'
+Comment: "gray . i"
+Constant: "green ."
+String: "yellow ." # Constant
+Character: "" # Constant
+Boolean: "" # Constant
+Number: "" # Constant
+Float: "" # Constant
+Identifier: "green2 ."
+Function: "" # Identifier
+Statement: "blue ."
+Conditional: "" # Statement
+Repeat: "" # Statement
+Label: "" # Statement
+Operator: "purple ." # Statement
+Keyword: "" # Statement
+Exception: "green ." # Statement
+PreProc: "purple ."
+Include: "" # PreProc
+Define: "" # PreProc
+Macro: "" # PreProc
+PreCondit: "" # PreProc
+Type: "green ."
+StorageClass: "purple ." # Type
+Structure: "" # Type
+Typedef: "" # Type
+Special: ""
+SpecialChar: "" # Special
+Tag: "" # Special
+Delimiter: "" # Special
+SpecialComment: "" # Special
+Debug: "" # Special
+Underlined: ""
+Ignore: ""
+Error: ""
+Todo: "gray7 yellow"

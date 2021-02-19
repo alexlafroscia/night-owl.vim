@@ -44,7 +44,6 @@ colorscheme night-owl
 let g:lightline = { 'colorscheme': 'nightowl' }
 ```
 
-
 This theme is build with [jacoborus/estilo](https://github.com/jacoborus/estilo). If you want to customize this theme, you will need [Node.js](https://nodejs.org).
 
 ```

@@ -1,15 +1,14 @@
-markdownHeadingDelimiter: 'gray .'
-markdownCodeDelimiter: 'yellow .'
-markdownCode: 'graya .'
-mkdCodeStart: 'white .'
-mkdCodeEnd: 'white .'
-mkdLinkDef: 'green2 .'
-mkdCodeDelimiter: 'gray dark'
-htmlH1: 'blue . b'
-htmlH2: '@htmlH1'
-htmlH3: '@htmlH1'
-htmlH4: 'blue .'
-htmlH5: '@htmlH4'
-htmlBold: 'purple dark b'
-shComment: 'gray dark i'
-
+markdownHeadingDelimiter: "gray ."
+markdownCodeDelimiter: "yellow ."
+markdownCode: "graya ."
+mkdCodeStart: "white ."
+mkdCodeEnd: "white ."
+mkdLinkDef: "green2 ."
+mkdCodeDelimiter: "gray dark"
+htmlH1: "blue . b"
+htmlH2: "@htmlH1"
+htmlH3: "@htmlH1"
+htmlH4: "blue ."
+htmlH5: "@htmlH4"
+htmlBold: "purple dark b"
+shComment: "gray dark i"

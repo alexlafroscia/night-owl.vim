@@ -2,6 +2,7 @@
   "name": "night-owl.vim",
   "version": "0.0.0",
   "scripts": {
+    "format": "prettier --write .",
     "render": "estilo render"
   },
   "repository": "git@github.com:haishanh/night-owl.vim.git",
@@ -10,5 +11,8 @@
   "private": true,
   "dependencies": {
     "estilo": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }
